@@ -1,0 +1,7 @@
+project: libultrahdr
+target: ultrahdr_legacy_fuzzer
+testsuite:
+  - file:///mayhem/mayhem/testsuite/ultrahdr_legacy_fuzzer
+cmds:
+  - cmd: /mayhem/ultrahdr_legacy_fuzzer
+    libfuzzer: true

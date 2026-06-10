@@ -1,0 +1,7 @@
+project: libultrahdr
+target: ultrahdr_dec_fuzzer
+testsuite:
+  - file:///mayhem/mayhem/testsuite/ultrahdr_dec_fuzzer
+cmds:
+  - cmd: /mayhem/ultrahdr_dec_fuzzer
+    libfuzzer: true
